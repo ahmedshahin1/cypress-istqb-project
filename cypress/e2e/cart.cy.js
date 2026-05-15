@@ -44,7 +44,7 @@ describe("Cart Module", () => {
     cartPage.openFirstProduct();
 
     cartPage.addToCart();
-git remote remove origin
+
     cartPage.openCart();
 
     cartPage.verifyPriceExists();
