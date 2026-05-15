@@ -1,0 +1,54 @@
+{
+  "validUser": {
+    "email": "customer@practicesoftwaretesting.com",
+    "password": "welcome01",
+    "firstName": "Jane",
+    "lastName": "Doe"
+  },
+  "invalidUser": {
+    "email": "wrong@test.com",
+    "password": "wrongpassword"
+  },
+  "emptyUser": {
+    "email": "",
+    "password": ""
+  },
+  "homepage": {
+    "expectedTitle": "Practice Software Testing",
+    "expectedUrl": "practicesoftwaretesting.com",
+    "navLinks": ["nav-home", "nav-sign-in", "nav-cart"]
+  },
+  "search": {
+    "validTerm": "Pliers",
+    "secondTerm": "Hammer",
+    "invalidTerm": "xyznonexistent999",
+    "partialTerm": "Pl"
+  },
+  "product": {
+    "expectedUrlSegment": "/product/",
+    "minProductCount": 1
+  },
+  "cart": {
+    "cartUrlSegment": "/checkout/cart",
+    "minItemCount": 1
+  },
+  "contact": {
+    "valid": {
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "testuser@example.com",
+      "subject": "Customer service",
+      "message": "This is a valid test message sent via Cypress automation."
+    }
+  },
+  "filter": {
+    "category": "Hand Tools",
+    "brand": "ForgeFlex Tools",
+    "minPrice": "10",
+    "maxPrice": "50"
+  },
+  "ui": {
+    "primaryColor": "rgb(0, 123, 255)",
+    "logoAlt": "Practice Software Testing"
+  }
+}
