@@ -10,14 +10,14 @@ describe("Home Module", () => {
 
   });
 
-  // ✅ TC4
+  // TC4
   it("Verify homepage loads", () => {
 
     homePage.verifyHomeLoaded();
 
   });
 
-  // ✅ TC5
+  // TC5
   it("Verify navbar exists", () => {
 
     homePage.verifyNavbar();
